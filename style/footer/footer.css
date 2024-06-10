@@ -1,0 +1,42 @@
+footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: cadetblue;
+
+}
+
+footer ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 16px;
+    border-right: 1px solid #fff;
+}
+
+footer li :last-child {
+    border: none;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 100%;
+}
+footer p {
+    color:cornflowerblue;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 100%;
+}
